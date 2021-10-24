@@ -52,10 +52,7 @@ function newElement() {
       div.style.display = "none";
     }
   }
+
+  
 }
 
-function removeEventListener(){
-    var element = document.getElementsByTagName("li");
-    element.parentNode.removeChild(element);
-
-}
